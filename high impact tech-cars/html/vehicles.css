@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+	box-sizing: border-box;
+}
+.row {
+    display: flex;
+	margin-top:40px;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.content{
+   background-image:url('en2.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   height:300px;
+   animation: slide 50s infinite;
+}
+@keyframes slide {
+    25% {
+        background-image: url('eng1.jpg');
+    }
+
+    50% {
+        background-image: url('lah1.jpg');
+    }
+
+    75% {
+        background-image: url('engines.jpg');
+    }
+
+    100% {
+        background-image: url('eng3.jpg');
+    }
+}
+h1 {
+    color: green;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    font-size: 2vw;
+    color: black;
+}
+#logo {
+    position: absolute;
+    top: 0;
+    left: 5;
+}
+
+body {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec1{
+	border:1px solid black;
+	background:goldenrod;
+	border-radius:20px;
+	text-align:center;
+	margin:50px;
+	width:50%;
+}
+#sec2{
+	border:1px solid black;
+	background:goldenrod;
+	border-radius:20px;
+	text-align:center;
+	margin:50px;
+	
+}
+.top-nav {
+    height: 40px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+.top-nav .menu{
+    diplay:inline-block;
+    list-style:none;
+}
+.top-nav .menu li {
+	display:inline;
+    padding:5px 10px;
+    float:right;
+    margin:5px;
+}
+
+.top-nav .menu li a {
+    color: white;
+    display: inline;
+    float: right;
+    text-align: center;
+    margin-left:5px;
+    margin-right:5px;
+    padding:5px;
+}
+
+.top-nav .max-width {
+    text-align: right;
+}
+
+a:hover {
+    background: blueviolet;
+    transition: .5s;
+	border-radius:20px;
+}
+footer {
+    background-color: dodgerblue;
+    text-align: center;
+    height: 30px;
+    color:white;
+    margin-top:500px;
+}
+#eng{
+	color:dodgerblue;
+	font-style:italic;
+	font-weight:bold;
+}
+#bd{
+	color:dodgerblue;
+	font-style:italic;
+	font-weight:bold;
+}
+#wh{
+	color:dodgerblue;
+	font-style:italic;
+	font-weight:bold;
+}
+#sys{
+	color:dodgerblue;
+	font-style:italic;
+	font-weight:bold;
+}
+#carEn{
+	color:dodgerblue;
+	font-style:italic;
+	font-weight:bold;
+}
+#carWh{
+	color:dodgerblue;
+	font-style:italic;
+	font-weight:bold;
+}
+#carSd{
+	color:dodgerblue;
+	font-style:italic;
+	font-weight:bold;
+}
+#carSp{
+	color:dodgerblue;
+	font-style:italic;
+	font-weight:bold;
+}

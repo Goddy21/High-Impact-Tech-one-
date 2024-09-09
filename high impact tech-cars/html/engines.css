@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+	box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+#logo {
+    position: absolute;
+    top: 0;
+    left: 5;
+}
+
+h1 {
+    color: green;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 30px;
+}

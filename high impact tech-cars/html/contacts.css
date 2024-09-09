@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+	box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+h1 {
+    color: green;
+    font-size: 4vw;
+	margin-top:50px;
+	margin-bottom:50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    font-size: 2vw;
+    color: black;
+	text-align:center;
+}
+#logo {
+    position: absolute;
+    top: 0;
+    left: 5;
+}
+body {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: dodgerblue;
+    text-align: center;
+    height: 30px;
+    color:white;
+    margin-top:500px;
+}
+ul{
+	text-align:center;
+	font-size:2vw;
+	font-weight:bold;
+}
+#email{
+	font-size:2vw;
+}

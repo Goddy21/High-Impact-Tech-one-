@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#password {
+    margin: 20px;
+}
+
+#username {
+    margin: 20px;
+}
+
+#submit {
+    margin: 20px;
+    font-size: 2vw;
+    border-radius: 10px;
+    background-color: orange;
+	border:1px solid black;
+}
+
+#text {
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    font-size: 4vw;
+    color: dodgerblue;
+	margin-bottom:50px;
+}
+#image{
+	margin-bottom:100px;
+}
